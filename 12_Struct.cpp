@@ -19,24 +19,26 @@ int main()
 	cout << "Nhap N = ";
 	cin >> N;
 	
-	////call function to import frac
-	//nhapPhanso(N);
+	//call function to import frac
+	nhapPhanso(N);
 
-	////call function to export frac
-	//cout << "before compacting expression: " << endl;
-	//xuatPhanso(N);
+	//call function to export frac
+	cout << "before compacting expression: " << endl;
+	xuatPhanso(N);
 
-	////call function to export frac after compact
-	//cout << "after compacting expression: " << endl;
-	//rutgon(N);
+	//call function to export frac after compact
+	cout << "after compacting expression: " << endl;
+	rutgon(N);
 
-	////call function to print the max value of prac...
-	//max(N);
+	//call function to print the max value of prac...
+	max(N);
 //************************************************************************************
-
+	//call function to type info of student list
 	Info(N);
+
+	//call function to print info of students who have max and min scores
 	inInfo(N);
 
-		
+	return 0;
 }
 
